@@ -23,4 +23,3 @@ Projetos desenvolvidos no curso do <img src="https://yt3.ggpht.com/ytc/AKedOLRBX
 
 * <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" alt="Logo React" width="20"/> [Learn Python for free](https://scrimba.com/learn/python) - [Learn-Python](learn-python);
 
-git commit -m "Adicionando ReadMe e pastas de futuros projetos..."
