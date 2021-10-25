@@ -1,5 +1,6 @@
 // Variables:
 let myLeads = [];
+let listItens;
 
 
 // Elements:
@@ -12,19 +13,20 @@ const ulEl = document.getElementById('ul-el');
 inputBtn.addEventListener('click', function () {
     myLeads.push(inputEl.value);
     console.log(myLeads);
-    listItens();
+    listItensLoop();
 });
 
 // Listing items:
-function listItens() {
-    ulEl.innerHTML = "";
+function listItensLoop() {
+    listItens = "";
     for(let i=0; i<myLeads.length; i++){
-        ulEl.innerHTML += `<li>${myLeads[i]}</li>`
+        listItens += `<li>${myLeads[i]}</li>`
         /*
         const li = document.createElement("li");
         li.textContent = myLeads[i];
         ulEl.append(li);
         */
     }
+    ulEl.innerHTML = listItens;
 }
 
