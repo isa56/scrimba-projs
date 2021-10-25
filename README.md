@@ -2,7 +2,7 @@
 
 
 ## Descrição do Repositório:
-Projetos desenvolvidos no curso do <img src="https://yt3.ggpht.com/ytc/AKedOLRBX_kQ1O7EScITaU0eJRqDzfIuDAFLXXCQt_f42g=s900-c-k-c0x00ffffff-no-rj" alt="Logo JavaScript" width="20"/> [Scrimba](https://scrimba.com/).
+Projetos desenvolvidos no curso do <img src="https://yt3.ggpht.com/ytc/AKedOLRBX_kQ1O7EScITaU0eJRqDzfIuDAFLXXCQt_f42g=s900-c-k-c0x00ffffff-no-rj" alt="Logo Scrimba" width="20"/> [Scrimba](https://scrimba.com/).
 
 
 ## Lista de Cursos:
