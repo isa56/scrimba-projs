@@ -14,12 +14,21 @@ input {
     border: 1px solid #5f9341;
 }
 
-#input-btn {
+#input-btn, #tab-btn {
     display: inline-block;
     background-color: #5f9341;
     font-weight: bold;
     color: white;
     border: none;
+    padding: 10px 20px;
+}
+
+#delete-btn {
+    display: inline-block;
+    background-color: white;
+    font-weight: bold;
+    color: #5f9341;
+    border: solid #5f9341 1px;
     padding: 10px 20px;
 }
 
