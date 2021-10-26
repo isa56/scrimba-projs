@@ -23,6 +23,9 @@ Projetos desenvolvidos no curso  [<img src="https://upload.wikimedia.org/wikiped
     * Extensão que "salva" leads (btn) de uma equipe do dpto. comercial em um array que é exibido na tela.
     * Mais DOM e mais renderização;
     * Lógica e arquitetura de uma extensão;
+    * Persistência de dados com `localStorage`;
+        * `JSON.stringfy` e `JSON.parse`;
+    * 
 
 4. [Exercícios entre Módulos:](exercises)
 
