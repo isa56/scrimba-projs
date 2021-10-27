@@ -7,7 +7,7 @@ Projetos desenvolvidos no curso do [<img src="https://yt3.ggpht.com/ytc/AKedOLRB
 
 ## Lista de Cursos:
 
-* [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png" alt="Logo JavaScript" width="20"/> Learn JavaScript for free
+* [X] [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png" alt="Logo JavaScript" width="20"/> Learn JavaScript for free
 ](https://scrimba.com/learn/learnjavascript) - [Learn-JS](learn-js);
 
 * [<img src="https://jeremyrajan.gallerycdn.vsassets.io/extensions/jeremyrajan/vscode-lebab/1.0.5/1573319221126/Microsoft.VisualStudio.Services.Icons.Default" alt="Logo JavaScript" width="20"/> Learn modern JavaScript

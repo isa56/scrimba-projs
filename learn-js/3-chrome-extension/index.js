@@ -3,9 +3,6 @@ let myLeads = [];
 let myLeadsStr;
 let listItens;
 const leadsFromLocal = JSON.parse( localStorage.getItem( "myLeads" ) );
-const tabs = [
-    {url: "https://www.linkedin.com/in/per-harald-borgen/"}
-]
 
 
 // Elements:
@@ -17,12 +14,11 @@ const tabBtn = document.getElementById('tab-btn');
 
 
 // Storage:
-/*
-localStorage.setItem(key, value)
+/*  localStorage.setItem(key, value)
 localStorage.getItem(key)
-localStorage.clear() */
+localStorage.clear()    */
 
-// Operaions:
+// Operations:
 if(leadsFromLocal) {
     myLeads = leadsFromLocal;
     renderLeads(myLeads);
@@ -31,12 +27,14 @@ if(leadsFromLocal) {
 renderLeads(myLeads);
 
 // Functions:
+
+// Buttons:
 inputBtn.addEventListener("click", function() {
     if(inputEl.value != "") {
-        myLeads.push(inputEl.value)
-        saveToLocal();
-        inputEl.value = ""
-        renderLeads(myLeads)
+        myLeads.push(inputEl.value);
+        saveToLocal(myLeads);
+        inputEl.value = "";
+        renderLeads(myLeads);
     }
 });
 
@@ -46,29 +44,34 @@ deleteBtn.addEventListener("dblclick", function() {
     renderLeads(myLeads);
 });
 
+tabBtn.addEventListener("click", function() {
+    chrome.tabs.query({active: true, currentWindow:true}, function(tabs) {
+        myLeads.push(tabs[0].url);
+        saveToLocal(myLeads);
+        renderLeads(myLeads);
+    })
+
+});
 
 
-function saveToLocal() {
-    myLeadsStr = JSON.stringify(myLeads);
+// Other functions:
+function saveToLocal(leads) {
+    myLeadsStr = JSON.stringify(leads);
     localStorage.setItem( "myLeads", myLeadsStr );
 }
 
 // Listing items:
 function renderLeads(leads) {
-
     let i;
     listItens = "";
-    
     for(i=0; i<leads.length; i++){
         listItens += 
             `<li id="leads-li">
                 <a id="leads-a" href="${leads[i]}" target="_blank"> ${leads[i]} </a>
             </li>`
-        /*
-        const li = document.createElement("li");
+        /*  const li = document.createElement("li");
         li.textContent = leads[i];
-        ulEl.append(li);
-        */
+        ulEl.append(li);    */
     }
     ulEl.innerHTML = listItens;
 }

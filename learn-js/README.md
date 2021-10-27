@@ -21,13 +21,10 @@ Projetos desenvolvidos no curso  [<img src="https://upload.wikimedia.org/wikiped
 3. [Extensão do Chrome - Save leads:](3-chrome-extension)
 
     * Extensão que "salva" leads (btn) de uma equipe do dpto. comercial em um array que é exibido na tela.
-    * Mais DOM e mais renderização;
+    * Mais DOM e mais renderização: addEventListener(), innerHTML, input.value;
     * Lógica e arquitetura de uma extensão;
     * Persistência de dados com `localStorage`;
         * `JSON.stringfy` e `JSON.parse`;
-    * 
-
-4. [Exercícios entre Módulos:](exercises)
-
-    * Exercícios de fixação entre cada módulo de Projeto;
-    * Não sei se vou atualizar por motivos de preguiça :D.
+    * parâmetros e argumentos;
+    * Template strings, const;
+    * localStorage() e JSON;

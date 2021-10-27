@@ -9,26 +9,29 @@ input {
     display: block;
     width: 100%;
     padding: 10px;
-    margin: 2px;
+    margin: 5px;
     box-sizing: border-box;
-    border: 1px solid #5f9341;
+    border: 1px solid #D88C9A;
+    border-radius: 10px;
 }
 
-#input-btn, #tab-btn {
+button {
     display: inline-block;
-    background-color: #5f9341;
+    background-color: #8E7DBE;
     font-weight: bold;
     color: white;
     border: none;
     padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: 5px;
 }
 
 #delete-btn {
     display: inline-block;
     background-color: white;
     font-weight: bold;
-    color: #5f9341;
-    border: solid #5f9341 1px;
+    color: #D88C9A;
+    border: solid #D88C9A 1px;
     padding: 10px 20px;
 }
 
@@ -43,9 +46,9 @@ input {
 }
 
 #leads-a {
-    color: #5f9341;
+    color: #8E7DBE;
 }
 
 #leads-a:visited {
-    color: #5fdd41;
+    color: #D88C9A;
 }
